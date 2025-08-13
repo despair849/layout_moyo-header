@@ -17,13 +17,12 @@ body {
 
 .logo {
   display: block;
-  size: 40px;
-  height: auto;
+  width: 40px;
+  height: 40px;
 }
 
 .moyo-nav {
   display: flex;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -48,15 +47,7 @@ body {
   text-align: center;
 }
 
-.box-nav li:first-child a {
-  margin-left: 0;
-}
-
-.box-nav li:last-child a {
-  margin-right: 0;
-}
-
-.box-nav :hover {
+.box-nav a:hover {
   color: var(--blue-color);
 }
 
